@@ -1,0 +1,24 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+	float nota1, nota2, res;
+	printf("Esse programa calculara sua nota.\n");
+	printf("Digite sua primeira nota: ");
+	scanf("%f", &nota1);
+	printf("\nDigite sua segunda nota: ");
+	scanf("%f", &nota2);;
+	res= (nota1*0.4) + (nota2*0.6);
+	
+	if(res<6)
+	{
+		printf("\nSua nota e: %.f \nVoce esta reprovado.",res);
+		
+	}
+	else
+	{
+			printf("\nSua nota e: %.f \nVoce esta aprovado.",res);
+	}
+	getch();
+	
+}
