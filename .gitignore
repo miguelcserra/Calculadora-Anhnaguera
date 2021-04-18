@@ -1,3 +1,5 @@
+//Programa em C para calculo de notas
+
 #include<conio.h>
 #include<stdio.h>
 int main()
